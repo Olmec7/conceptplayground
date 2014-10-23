@@ -23,6 +23,8 @@
     stamina += stamina;
     agility += agility;
 }
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
