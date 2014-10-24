@@ -12,7 +12,7 @@
 
 
 - (int)getNumber {
-    int r = arc4random();
+    int r = (arc4random() % 10) + 1;
     //
     return r;
 }

@@ -10,7 +10,7 @@
 
 @implementation DView
 
-- (void)showNumber:(int)num
+- (void)showImage:(int)num
 {
     
 }

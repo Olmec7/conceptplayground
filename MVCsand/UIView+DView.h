@@ -12,6 +12,6 @@
 
 @property (nonatomic, strong) UIImageView *numImage;
 
-- (void)showNumber:(int)num;
+- (void)showImage:(int)num;
 
 @end
