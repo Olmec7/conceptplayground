@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Messaging/Messaging.xcodeproj">
+      location = "group:Messages/Messages.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:MVCsand/MVCsand.xcodeproj">
