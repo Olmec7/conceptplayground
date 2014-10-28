@@ -7,28 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NSObject+Video_Games.h"
+
 
 @interface ViewController : UIViewController
-{
-    int _agility;
-    int _strength;
-    int _intelligence;
-    bool telekenisis;
-    NSString *_greeting;
     
-}
+- (IBAction)getGame:(id)sender;
+    
+    
 
 
-
-@property (nonatomic, strong) NSString* Name;
-@property (nonatomic) int Stamina;
-
-// no parameters
-- (void) doSomethingHeroic;
-// 1 parameter
-- (int) fight:(int)enemyStamina;
-// 2 parameters
-- (void) increaseStatsWithStamina:(int)stamina andAgility:(int)agility;
 
 @end
 

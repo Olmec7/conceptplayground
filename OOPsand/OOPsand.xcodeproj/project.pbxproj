@@ -14,6 +14,7 @@
 		EA4219B919F57CCF0040CB61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4219B819F57CCF0040CB61 /* Images.xcassets */; };
 		EA4219BC19F57CCF0040CB61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4219BA19F57CCF0040CB61 /* LaunchScreen.xib */; };
 		EA4219C819F57CCF0040CB61 /* OOPsandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4219C719F57CCF0040CB61 /* OOPsandTests.m */; };
+		EAAB948E19FF178500852647 /* NSObject+Video_Games.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAB948D19FF178500852647 /* NSObject+Video_Games.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EA4219C119F57CCF0040CB61 /* OOPsandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OOPsandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4219C619F57CCF0040CB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA4219C719F57CCF0040CB61 /* OOPsandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OOPsandTests.m; sourceTree = "<group>"; };
+		EAAB948C19FF178500852647 /* NSObject+Video_Games.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Video_Games.h"; path = "../NSObject+Video_Games.h"; sourceTree = "<group>"; };
+		EAAB948D19FF178500852647 /* NSObject+Video_Games.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Video_Games.m"; path = "../NSObject+Video_Games.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		EA4219AA19F57CCF0040CB61 /* OOPsand */ = {
 			isa = PBXGroup;
 			children = (
+				EAAB948C19FF178500852647 /* NSObject+Video_Games.h */,
+				EAAB948D19FF178500852647 /* NSObject+Video_Games.m */,
 				EA4219AF19F57CCF0040CB61 /* AppDelegate.h */,
 				EA4219B019F57CCF0040CB61 /* AppDelegate.m */,
 				EA4219B219F57CCF0040CB61 /* ViewController.h */,
@@ -222,6 +227,7 @@
 				EA4219B419F57CCF0040CB61 /* ViewController.m in Sources */,
 				EA4219B119F57CCF0040CB61 /* AppDelegate.m in Sources */,
 				EA4219AE19F57CCF0040CB61 /* main.m in Sources */,
+				EAAB948E19FF178500852647 /* NSObject+Video_Games.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

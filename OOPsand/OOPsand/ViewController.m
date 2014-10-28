@@ -7,23 +7,29 @@
 //
 
 #import "ViewController.h"
+#import "NSObject+Video_Games.h"
 
 
 
 @implementation ViewController
-- (int)fight:(int)enemyStamina
-{
-    int resultingStamina = enemyStamina - 5;
+
+
+- (IBAction)getGame:(id)sender{
     
-    return resultingStamina;
+    Video_Games *game = [[Video_Games alloc] init];
+    game.developer = @"Bungie";
+    game.year = 2001;
+    game.title = @"Halo: Combat Evolved";
+    
+    
+    Video_Games *game2 = [[Video_Games alloc] init];
+    [game2 setTitle:@""];
+    [game2 setDeveloper:@"JRR Tolkien"];
+    [game2 setYear:1954];
+    
+    NSArray *games = [[NSArray alloc] initWithObjects:game, game2, nil];
+    
 }
-
-- (void) increaseStatsWithStamina:(int)stamina andAgility:(int)agility
-{
-    stamina += stamina;
-    agility += agility;
-}
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -36,9 +42,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)nGenerate:(id)sender {
-}
-- (IBAction)forScore:(id)sender {
-}
+
 @end
 
