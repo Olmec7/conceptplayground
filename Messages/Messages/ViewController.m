@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSObject+Model.h"
 
 @interface ViewController ()
 
@@ -23,5 +24,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)forScore:(id)sender {
+    Model *score = [[Model alloc] init];
+    int points = 100;
+    int newScore = [score addX:24 toY:points];
+    
+    self.score.text = [NSString stringWithFormat:@"%d", newScore];
+    
+}
+
+
 
 @end

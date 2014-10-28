@@ -19,6 +19,7 @@
 }
 
 
+
 @property (nonatomic, strong) NSString* Name;
 @property (nonatomic) int Stamina;
 

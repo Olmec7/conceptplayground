@@ -38,5 +38,7 @@
 
 - (IBAction)nGenerate:(id)sender {
 }
+- (IBAction)forScore:(id)sender {
+}
 @end
 

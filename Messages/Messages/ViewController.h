@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)forScore:(id)sender;
+
+@property (strong, nonatomic) IBOutlet UILabel *score;
+
 
 @end
 

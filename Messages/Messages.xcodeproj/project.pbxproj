@@ -14,6 +14,7 @@
 		EAAB947119FEA69B00852647 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAB947019FEA69B00852647 /* Images.xcassets */; };
 		EAAB947419FEA69B00852647 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAAB947219FEA69B00852647 /* LaunchScreen.xib */; };
 		EAAB948019FEA69B00852647 /* MessagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAB947F19FEA69B00852647 /* MessagesTests.m */; };
+		EAAB948B19FF0C7000852647 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAB948A19FF0C7000852647 /* NSObject+Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EAAB947919FEA69B00852647 /* MessagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAAB947E19FEA69B00852647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAAB947F19FEA69B00852647 /* MessagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagesTests.m; sourceTree = "<group>"; };
+		EAAB948919FF0C7000852647 /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		EAAB948A19FF0C7000852647 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				EAAB946819FEA69B00852647 /* AppDelegate.m */,
 				EAAB946A19FEA69B00852647 /* ViewController.h */,
 				EAAB946B19FEA69B00852647 /* ViewController.m */,
+				EAAB948919FF0C7000852647 /* NSObject+Model.h */,
+				EAAB948A19FF0C7000852647 /* NSObject+Model.m */,
 				EAAB946D19FEA69B00852647 /* Main.storyboard */,
 				EAAB947019FEA69B00852647 /* Images.xcassets */,
 				EAAB947219FEA69B00852647 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				EAAB946C19FEA69B00852647 /* ViewController.m in Sources */,
 				EAAB946919FEA69B00852647 /* AppDelegate.m in Sources */,
 				EAAB946619FEA69B00852647 /* main.m in Sources */,
+				EAAB948B19FF0C7000852647 /* NSObject+Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +418,7 @@
 				EAAB948519FEA69B00852647 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAAB948619FEA69B00852647 /* Build configuration list for PBXNativeTarget "MessagesTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				EAAB948819FEA69B00852647 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
