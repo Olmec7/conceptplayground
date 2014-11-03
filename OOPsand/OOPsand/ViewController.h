@@ -12,7 +12,11 @@
 
 @interface ViewController : UIViewController
     
-- (IBAction)getGame:(id)sender;
+- (IBAction)getGame;
+@property (nonatomic, weak) IBOutlet UILabel *gameYearLabel;
+@property (nonatomic, weak) IBOutlet UILabel *gameDeveloperLabel;
+@property (nonatomic,weak) IBOutlet UISegmentedControl *getGameSegmented;
+
     
     
 

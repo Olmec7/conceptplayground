@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Dynamic Layouts/Dynamic Layouts.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Messages/Messages.xcodeproj">
    </FileRef>
    <FileRef
