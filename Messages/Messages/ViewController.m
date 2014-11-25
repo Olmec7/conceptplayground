@@ -29,6 +29,8 @@
     Model *score = [[Model alloc] init];
     int points = 100;
     int newScore = [score addX:24 toY:points];
+    [score sort];
+    
     
     self.score.text = [NSString stringWithFormat:@"%d", newScore];
     

@@ -35,4 +35,6 @@
     
     
 }
+- (IBAction)enterNumber:(id)sender {
+}
 @end

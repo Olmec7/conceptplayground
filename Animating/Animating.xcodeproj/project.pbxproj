@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA2D07821A242582006236F8 /* BadChad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA2D07811A242582006236F8 /* BadChad.jpg */; };
 		EAC935141A094D7F00DACBA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC935131A094D7F00DACBA6 /* AppDelegate.swift */; };
 		EAC935161A094D7F00DACBA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC935151A094D7F00DACBA6 /* ViewController.swift */; };
 		EAC935191A094D7F00DACBA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC935171A094D7F00DACBA6 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA2D07811A242582006236F8 /* BadChad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BadChad.jpg; sourceTree = "<group>"; };
 		EAC9350E1A094D7F00DACBA6 /* Animating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC935121A094D7F00DACBA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAC935131A094D7F00DACBA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				EAC935131A094D7F00DACBA6 /* AppDelegate.swift */,
 				EAC935151A094D7F00DACBA6 /* ViewController.swift */,
+				EA2D07811A242582006236F8 /* BadChad.jpg */,
 				EAC935171A094D7F00DACBA6 /* Main.storyboard */,
 				EAC9351A1A094D7F00DACBA6 /* Images.xcassets */,
 				EAC9351C1A094D7F00DACBA6 /* LaunchScreen.xib */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAC935191A094D7F00DACBA6 /* Main.storyboard in Resources */,
+				EA2D07821A242582006236F8 /* BadChad.jpg in Resources */,
 				EAC9351E1A094D7F00DACBA6 /* LaunchScreen.xib in Resources */,
 				EAC9351B1A094D7F00DACBA6 /* Images.xcassets in Resources */,
 			);
@@ -405,6 +409,7 @@
 				EAC9352F1A094D7F00DACBA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAC935301A094D7F00DACBA6 /* Build configuration list for PBXNativeTarget "AnimatingTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				EAC935321A094D7F00DACBA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
