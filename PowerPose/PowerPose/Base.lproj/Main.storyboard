@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="PowerPose" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O6E-Ba-Nb3">
+                                <rect key="frame" x="-6" y="-20" width="606" height="518"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="606" id="6Np-za-Z0l"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="6Np-za-Z0l"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="6Np-za-Z0l"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yBi-MC-t30">
+                                <rect key="frame" x="134" y="531" width="71" height="30"/>
+                                <state key="normal" title="Take Pose">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="takePose:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="e9i-Am-wO9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQ0-Kx-BVz">
+                                <rect key="frame" x="384" y="531" width="64" height="30"/>
+                                <state key="normal" title="Get Pose">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="getPose:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9uh-YJ-5Rq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="RQ0-Kx-BVz" secondAttribute="trailing" constant="55" id="2DU-Ws-qyG"/>
+                            <constraint firstItem="O6E-Ba-Nb3" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="-7" id="PDF-LK-YNp"/>
+                            <constraint firstItem="RQ0-Kx-BVz" firstAttribute="top" secondItem="O6E-Ba-Nb3" secondAttribute="bottom" constant="26" id="VyR-DZ-reG"/>
+                            <constraint firstItem="yBi-MC-t30" firstAttribute="top" secondItem="O6E-Ba-Nb3" secondAttribute="bottom" constant="26" id="Yy8-XV-N6y"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="RQ0-Kx-BVz" secondAttribute="bottom" constant="40" id="fQ8-eY-6Sb"/>
+                            <constraint firstItem="RQ0-Kx-BVz" firstAttribute="baseline" secondItem="yBi-MC-t30" secondAttribute="baseline" id="lql-zx-59p"/>
+                            <constraint firstItem="yBi-MC-t30" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="60" id="m1F-69-JEm"/>
+                            <constraint firstItem="O6E-Ba-Nb3" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="qbY-kE-dP4"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="PDF-LK-YNp"/>
+                                <exclude reference="qbY-kE-dP4"/>
+                                <exclude reference="Yy8-XV-N6y"/>
+                                <exclude reference="m1F-69-JEm"/>
+                                <exclude reference="fQ8-eY-6Sb"/>
+                                <exclude reference="2DU-Ws-qyG"/>
+                                <exclude reference="VyR-DZ-reG"/>
+                                <exclude reference="lql-zx-59p"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="PDF-LK-YNp"/>
+                                <include reference="qbY-kE-dP4"/>
+                                <include reference="Yy8-XV-N6y"/>
+                                <include reference="m1F-69-JEm"/>
+                                <include reference="fQ8-eY-6Sb"/>
+                                <include reference="2DU-Ws-qyG"/>
+                                <include reference="VyR-DZ-reG"/>
+                                <include reference="lql-zx-59p"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="poseView" destination="O6E-Ba-Nb3" id="CA7-by-adW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="379.5" y="264.75"/>
+        </scene>
+    </scenes>
+</document>

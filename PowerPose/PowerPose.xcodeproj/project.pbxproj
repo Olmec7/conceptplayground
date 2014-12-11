@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAA4891A1A393F7C0003A710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA489191A393F7C0003A710 /* AppDelegate.swift */; };
+		EAA4891D1A393F7C0003A710 /* PowerPose.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAA4891B1A393F7C0003A710 /* PowerPose.xcdatamodeld */; };
+		EAA4891F1A393F7C0003A710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA4891E1A393F7C0003A710 /* ViewController.swift */; };
+		EAA489221A393F7C0003A710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA489201A393F7C0003A710 /* Main.storyboard */; };
+		EAA489241A393F7C0003A710 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA489231A393F7C0003A710 /* Images.xcassets */; };
+		EAA489271A393F7C0003A710 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA489251A393F7C0003A710 /* LaunchScreen.xib */; };
+		EAA489331A393F7D0003A710 /* PowerPoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA489321A393F7D0003A710 /* PowerPoseTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAA4892D1A393F7D0003A710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA4890C1A393F7C0003A710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA489131A393F7C0003A710;
+			remoteInfo = PowerPose;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAA489141A393F7C0003A710 /* PowerPose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerPose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA489181A393F7C0003A710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA489191A393F7C0003A710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAA4891C1A393F7C0003A710 /* PowerPose.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PowerPose.xcdatamodel; sourceTree = "<group>"; };
+		EAA4891E1A393F7C0003A710 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAA489211A393F7C0003A710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAA489231A393F7C0003A710 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAA489261A393F7C0003A710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EAA4892C1A393F7D0003A710 /* PowerPoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerPoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA489311A393F7D0003A710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA489321A393F7D0003A710 /* PowerPoseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerPoseTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA489111A393F7C0003A710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA489291A393F7D0003A710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAA4890B1A393F7C0003A710 = {
+			isa = PBXGroup;
+			children = (
+				EAA489161A393F7C0003A710 /* PowerPose */,
+				EAA4892F1A393F7D0003A710 /* PowerPoseTests */,
+				EAA489151A393F7C0003A710 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA489151A393F7C0003A710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA489141A393F7C0003A710 /* PowerPose.app */,
+				EAA4892C1A393F7D0003A710 /* PowerPoseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAA489161A393F7C0003A710 /* PowerPose */ = {
+			isa = PBXGroup;
+			children = (
+				EAA489191A393F7C0003A710 /* AppDelegate.swift */,
+				EAA4891E1A393F7C0003A710 /* ViewController.swift */,
+				EAA489201A393F7C0003A710 /* Main.storyboard */,
+				EAA489231A393F7C0003A710 /* Images.xcassets */,
+				EAA489251A393F7C0003A710 /* LaunchScreen.xib */,
+				EAA4891B1A393F7C0003A710 /* PowerPose.xcdatamodeld */,
+				EAA489171A393F7C0003A710 /* Supporting Files */,
+			);
+			path = PowerPose;
+			sourceTree = "<group>";
+		};
+		EAA489171A393F7C0003A710 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAA489181A393F7C0003A710 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAA4892F1A393F7D0003A710 /* PowerPoseTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAA489321A393F7D0003A710 /* PowerPoseTests.swift */,
+				EAA489301A393F7D0003A710 /* Supporting Files */,
+			);
+			path = PowerPoseTests;
+			sourceTree = "<group>";
+		};
+		EAA489301A393F7D0003A710 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAA489311A393F7D0003A710 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAA489131A393F7C0003A710 /* PowerPose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA489361A393F7D0003A710 /* Build configuration list for PBXNativeTarget "PowerPose" */;
+			buildPhases = (
+				EAA489101A393F7C0003A710 /* Sources */,
+				EAA489111A393F7C0003A710 /* Frameworks */,
+				EAA489121A393F7C0003A710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PowerPose;
+			productName = PowerPose;
+			productReference = EAA489141A393F7C0003A710 /* PowerPose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAA4892B1A393F7D0003A710 /* PowerPoseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA489391A393F7D0003A710 /* Build configuration list for PBXNativeTarget "PowerPoseTests" */;
+			buildPhases = (
+				EAA489281A393F7D0003A710 /* Sources */,
+				EAA489291A393F7D0003A710 /* Frameworks */,
+				EAA4892A1A393F7D0003A710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA4892E1A393F7D0003A710 /* PBXTargetDependency */,
+			);
+			name = PowerPoseTests;
+			productName = PowerPoseTests;
+			productReference = EAA4892C1A393F7D0003A710 /* PowerPoseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA4890C1A393F7C0003A710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Chad Slater";
+				TargetAttributes = {
+					EAA489131A393F7C0003A710 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EAA4892B1A393F7D0003A710 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EAA489131A393F7C0003A710;
+					};
+				};
+			};
+			buildConfigurationList = EAA4890F1A393F7C0003A710 /* Build configuration list for PBXProject "PowerPose" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAA4890B1A393F7C0003A710;
+			productRefGroup = EAA489151A393F7C0003A710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA489131A393F7C0003A710 /* PowerPose */,
+				EAA4892B1A393F7D0003A710 /* PowerPoseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA489121A393F7C0003A710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA489221A393F7C0003A710 /* Main.storyboard in Resources */,
+				EAA489271A393F7C0003A710 /* LaunchScreen.xib in Resources */,
+				EAA489241A393F7C0003A710 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA4892A1A393F7D0003A710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA489101A393F7C0003A710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA4891F1A393F7C0003A710 /* ViewController.swift in Sources */,
+				EAA4891D1A393F7C0003A710 /* PowerPose.xcdatamodeld in Sources */,
+				EAA4891A1A393F7C0003A710 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA489281A393F7D0003A710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA489331A393F7D0003A710 /* PowerPoseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAA4892E1A393F7D0003A710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA489131A393F7C0003A710 /* PowerPose */;
+			targetProxy = EAA4892D1A393F7D0003A710 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAA489201A393F7C0003A710 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA489211A393F7C0003A710 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAA489251A393F7C0003A710 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA489261A393F7C0003A710 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAA489341A393F7D0003A710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAA489351A393F7D0003A710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAA489371A393F7D0003A710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PowerPose/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAA489381A393F7D0003A710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PowerPose/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAA4893A1A393F7D0003A710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PowerPoseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerPose.app/PowerPose";
+			};
+			name = Debug;
+		};
+		EAA4893B1A393F7D0003A710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PowerPoseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerPose.app/PowerPose";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA4890F1A393F7C0003A710 /* Build configuration list for PBXProject "PowerPose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA489341A393F7D0003A710 /* Debug */,
+				EAA489351A393F7D0003A710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA489361A393F7D0003A710 /* Build configuration list for PBXNativeTarget "PowerPose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA489371A393F7D0003A710 /* Debug */,
+				EAA489381A393F7D0003A710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAA489391A393F7D0003A710 /* Build configuration list for PBXNativeTarget "PowerPoseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA4893A1A393F7D0003A710 /* Debug */,
+				EAA4893B1A393F7D0003A710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EAA4891B1A393F7C0003A710 /* PowerPose.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EAA4891C1A393F7C0003A710 /* PowerPose.xcdatamodel */,
+			);
+			currentVersion = EAA4891C1A393F7C0003A710 /* PowerPose.xcdatamodel */;
+			path = PowerPose.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EAA4890C1A393F7C0003A710 /* Project object */;
+}

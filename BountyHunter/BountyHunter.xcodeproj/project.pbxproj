@@ -14,6 +14,7 @@
 		EA63C8101A24F62A00821310 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA63C80F1A24F62A00821310 /* Images.xcassets */; };
 		EA63C8131A24F62A00821310 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA63C8111A24F62A00821310 /* LaunchScreen.xib */; };
 		EA63C81F1A24F62A00821310 /* BountyHunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA63C81E1A24F62A00821310 /* BountyHunterTests.swift */; };
+		EA79BCE41A36BFF50048271C /* BountyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA79BCE31A36BFF50048271C /* BountyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		EA63C8181A24F62A00821310 /* BountyHunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BountyHunterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA63C81D1A24F62A00821310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA63C81E1A24F62A00821310 /* BountyHunterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyHunterTests.swift; sourceTree = "<group>"; };
+		EA79BCE31A36BFF50048271C /* BountyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BountyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				EA63C8111A24F62A00821310 /* LaunchScreen.xib */,
 				EA63C8071A24F62A00821310 /* BountyHunter.xcdatamodeld */,
 				EA63C8031A24F62A00821310 /* Supporting Files */,
+				EA79BCE31A36BFF50048271C /* BountyModel.swift */,
 			);
 			path = BountyHunter;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				EA63C80B1A24F62A00821310 /* ViewController.swift in Sources */,
 				EA63C8091A24F62A00821310 /* BountyHunter.xcdatamodeld in Sources */,
+				EA79BCE41A36BFF50048271C /* BountyModel.swift in Sources */,
 				EA63C8061A24F62A00821310 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				EA63C8241A24F62A00821310 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA63C8251A24F62A00821310 /* Build configuration list for PBXNativeTarget "BountyHunterTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				EA63C8271A24F62A00821310 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
