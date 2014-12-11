@@ -12,6 +12,7 @@ import AVFoundation
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet var poseView: UIImageView!
+    @IBOutlet var poseImage: UIImageView!
     @IBAction func takePose(sender: AnyObject) {
         
        let pick = UIImagePickerController()
@@ -50,6 +51,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             
             
         }
+        
+        var imageView = UIImageView(frame: CGRectMake(100, 150, 150, 150));
+        var image = UIImage(named: "powerpose.png");
+            imageView.image = image;
+            self.view.addSubview(imageView);
     }
 
     override func didReceiveMemoryWarning() {

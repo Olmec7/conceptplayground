@@ -17,6 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rsj-ar-PXx">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="-13" width="400" height="717"/>
+                                </variation>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O6E-Ba-Nb3">
                                 <rect key="frame" x="-6" y="-20" width="606" height="518"/>
                                 <constraints>
@@ -64,6 +70,9 @@
                             <constraint firstItem="O6E-Ba-Nb3" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="qbY-kE-dP4"/>
                         </constraints>
                         <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="rsj-ar-PXx"/>
+                            </mask>
                             <mask key="constraints">
                                 <exclude reference="PDF-LK-YNp"/>
                                 <exclude reference="qbY-kE-dP4"/>
@@ -76,6 +85,9 @@
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="rsj-ar-PXx"/>
+                            </mask>
                             <mask key="constraints">
                                 <include reference="PDF-LK-YNp"/>
                                 <include reference="qbY-kE-dP4"/>
@@ -89,6 +101,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="poseImage" destination="rsj-ar-PXx" id="UBI-Gl-YJt"/>
                         <outlet property="poseView" destination="O6E-Ba-Nb3" id="CA7-by-adW"/>
                     </connections>
                 </viewController>
