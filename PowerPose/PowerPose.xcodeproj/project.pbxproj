@@ -409,6 +409,7 @@
 				EAA489381A393F7D0003A710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAA489391A393F7D0003A710 /* Build configuration list for PBXNativeTarget "PowerPoseTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				EAA4893B1A393F7D0003A710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

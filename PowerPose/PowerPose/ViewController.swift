@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate  {
 
     @IBOutlet var poseView: UIImageView!
     @IBOutlet var poseImage: UIImageView!
@@ -20,6 +20,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         pick.allowsEditing = true;
         
         pick.sourceType = UIImagePickerControllerSourceType(rawValue: 1)!
+        
+        var imageView = UIImageView(frame: CGRectMake(100, 150, 150, 150));
+        var image = UIImage(named: "powerpose.png");
+        imageView.image = image;
+        pick.cameraOverlayView = imageView
        
         self.presentViewController(pick,animated: true,nil)
         
